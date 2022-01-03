@@ -48,3 +48,10 @@ function groupTitles(strs) {
       }
   }
 
+/* 
+Let n be the size of the array of strings, and k be the maximum length that a single string can have.
+
+Time Complexity: O(n×k) - counting each letter for each string in a array
+Space Complexity: O(n×k) - every string (size k) is being stored as a value in the dictionary (size n)
+
+*/
